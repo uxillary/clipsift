@@ -21,6 +21,8 @@
 
 ## One-sentence summary
 
+The website's stylised interface preview is explicitly a concept rather than a factual v0.1.0 screenshot. It may inform the next GUI design iteration, but does not commit the project to implementing every represented control.
+
 ClipSift is a privacy-conscious CCTV review assistant that uses AI and GPU inference to find video clips likely to contain a person, reducing hours of footage to a short review queue.
 
 ## The problem

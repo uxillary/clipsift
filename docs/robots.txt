@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://uxillary.github.io/ClipSift/sitemap.xml
+Sitemap: https://uxillary.github.io/clipsift/sitemap.xml
