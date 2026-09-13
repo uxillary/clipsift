@@ -1,6 +1,9 @@
 # ClipSift v0.1.0 Alpha
 
-ClipSift's first public pre-release is a privacy-conscious Windows CCTV review assistant powered by the vision-capable `google/gemma-3-4b-it` model.
+ClipSift's first Alpha pre-release is a privacy-conscious Windows 10/11 64-bit CCTV review assistant powered by the vision-capable `google/gemma-3-4b-it` model.
+
+- **Download:** [ClipSift-0.1.0-win64.zip](https://downloads.adamj.link/clipsift/v0.1.0/ClipSift-0.1.0-win64.zip) — 2,876,584,258 bytes (2.68 GiB).
+- **SHA-256:** `ce3380b629086c00930928d0038e73f805d1a57f93794ebaafd95d6a1e6bd525` ([checksum file](https://downloads.adamj.link/clipsift/v0.1.0/ClipSift-0.1.0-win64.zip.sha256)).
 
 ## Highlights
 
@@ -22,7 +25,7 @@ These are compatibility observations, not a broad hardware certification or an a
 
 The Windows release is packaged as an unsigned, portable PyInstaller **onedir/windowed** application and distributed as a ZIP rather than an installer. The directory contains ClipSift and its Python/GUI/computer-vision/ML runtime, so it is large and must remain intact after extraction.
 
-**Gemma is not bundled or redistributed.** Users must have a Hugging Face account, accept the terms for [`google/gemma-3-4b-it`](https://huggingface.co/google/gemma-3-4b-it), authenticate with `hf auth login`, and allow Hugging Face to download the model separately into its normal per-user cache. Credentials are not included.
+**Gemma is not included in the ZIP, bundled, or redistributed.** Users must have a Hugging Face account, accept the terms for [`google/gemma-3-4b-it`](https://huggingface.co/google/gemma-3-4b-it), authenticate with `hf auth login`, and allow Hugging Face to download the model separately into its normal per-user cache. Credentials are not included. An NVIDIA GPU is recommended, and approximately 20 GB of free disk space is recommended for the application, model cache, and results.
 
 ## Known limitations
 

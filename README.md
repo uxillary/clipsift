@@ -16,11 +16,10 @@ ClipSift scans a local folder of CCTV video, samples representative frames, and 
 
 ## Download
 
-- **Windows portable ZIP:** `[DOWNLOAD_URL_TO_BE_ADDED]`
-- **Release page:** `[GITHUB_RELEASE_URL_TO_BE_ADDED]`
-- **SHA-256:** `[SHA256_TO_BE_ADDED]`
+- **Windows 10/11 64-bit portable ZIP:** [ClipSift-0.1.0-win64.zip](https://downloads.adamj.link/clipsift/v0.1.0/ClipSift-0.1.0-win64.zip) — 2,876,584,258 bytes (2.68 GiB).
+- **SHA-256:** `ce3380b629086c00930928d0038e73f805d1a57f93794ebaafd95d6a1e6bd525` ([checksum file](https://downloads.adamj.link/clipsift/v0.1.0/ClipSift-0.1.0-win64.zip.sha256)).
 
-These placeholders will be replaced after the final package is rebuilt, tested, uploaded, and hashed. The portable build is an unsigned PyInstaller `onedir` application, not an installer; Windows SmartScreen may display a warning.
+This is an unsigned Alpha PyInstaller `onedir` application, not an installer; Windows SmartScreen may display a warning. Gemma downloads separately through Hugging Face and is not included in the ZIP.
 
 ## Install and run
 

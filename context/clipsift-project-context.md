@@ -2,7 +2,7 @@
 
 ## Project status
 
-- **Status:** v0.1.0 Alpha public pre-release preparation
+- **Status:** v0.1.0 Alpha Windows GitHub pre-release preparation; verified ZIP details recorded, publication pending
 - **Created for:** Google Cloud × NVIDIA GTC Berlin 2026 Golden Ticket challenge
 - **Submission deadline:** 10 September 2026
 - **Owner:** Adam Johnston
@@ -13,10 +13,10 @@
 ## v0.1.0 Alpha release milestone
 
 - **Milestone:** Prepare the repository and supporting documentation for the first public GitHub pre-release, `v0.1.0 Alpha`.
-- **Packaging status:** A PyInstaller onedir/windowed build pipeline and a prior local package exist. A final branded rebuild, real packaged-EXE inference test, and basic clean-machine test are still required; the current artifacts must not be treated as the public release.
+- **Packaging status:** A PyInstaller onedir/windowed build pipeline and release ZIP exist. A final branded build check, real packaged-EXE inference test, and basic clean-machine test remain unverified in this documentation pass.
 - **Branding status:** Branded application icons, header/watermark assets, and GUI controls are present. The final branded package and release screenshots still need to be produced and verified.
-- **Distribution approach:** Publish an unsigned portable Windows ZIP through external storage because of its size, link it from a GitHub pre-release, and publish a verified SHA-256. Gemma weights and credentials remain separate and are never redistributed with ClipSift.
-- **Release blockers:** Complete the final rebuild and tests, upload the ZIP, record the final checksum, replace URL/hash placeholders, tag `v0.1.0`, publish the GitHub pre-release, and verify the public download/setup journey.
+- **Distribution details:** The unsigned portable Windows ZIP is [ClipSift-0.1.0-win64.zip](https://downloads.adamj.link/clipsift/v0.1.0/ClipSift-0.1.0-win64.zip), 2,876,584,258 bytes (2.68 GiB), SHA-256 `ce3380b629086c00930928d0038e73f805d1a57f93794ebaafd95d6a1e6bd525` ([checksum file](https://downloads.adamj.link/clipsift/v0.1.0/ClipSift-0.1.0-win64.zip.sha256)). Gemma downloads separately through Hugging Face and is not included in the ZIP; credentials are not redistributed.
+- **Release checks still open:** Verify the final branded package with real packaged-EXE inference and a basic clean-machine test, tag `v0.1.0`, publish the GitHub pre-release, and verify the public download/setup journey.
 - **Future website:** A later GitHub Pages site will provide the product overview, setup/model guidance, privacy and limitation disclosures, screenshots, demo, FAQ, troubleshooting, and release/download links. Its plan is in `docs/github-pages-plan.md`; no website is being built for this milestone.
 
 ## One-sentence summary
