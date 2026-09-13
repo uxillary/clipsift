@@ -79,9 +79,9 @@ The first static GitHub Pages site is now implemented directly in `/docs` with p
 - A responsive, accessible single-page product overview with Alpha status and safety language.
 - The verified v0.1.0 direct download, package details, checksum, and SmartScreen warning.
 - Workflow, classification, desktop/CLI, requirements, separate Gemma setup, privacy, demo, FAQ, and troubleshooting content.
-- A representative CSS-rendered interface visual based on the current product design and classifications; no private CCTV frames are used.
+- A clearly labelled CSS-rendered **interface preview concept** based on the current product direction and classifications; it is not presented as a v0.1.0 screenshot or a commitment to every illustrated control, and no private CCTV frames are used.
 - GitHub Pages metadata, canonical URL, JSON-LD, favicon, robots file, sitemap, 404 page, reduced-motion handling, and keyboard focus states.
-- Only the approved text-based ClipSift SVG brand asset copied to `docs/assets/`; existing `for_content/` screenshots were reviewed but excluded because they show Google Cloud account/project UI rather than the finished ClipSift interface.
+- Approved existing ClipSift brand and UI assets are reused selectively from `docs/assets/`. Existing screenshots with account, project, username, or local-path details remain excluded from the page.
 
 The download continues to point directly to the verified R2 URL. A source comment identifies the replacement point for a future counted redirect without implementing tracking.
 
