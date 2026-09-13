@@ -71,3 +71,23 @@ Provide symptom-led help for SmartScreen, incomplete ZIP extraction, failed Hugg
 ## Publication prerequisites
 
 Do not implement the site until the final package name, size, checksum, external download location, GitHub pre-release URL, demo URL, documentation URL, approved screenshots, and tested setup steps are available.
+
+## Implementation record (September 2026)
+
+The first static GitHub Pages site is now implemented directly in `/docs` with plain HTML and CSS and no build step, framework, analytics, cookies, or tracking. It includes:
+
+- A responsive, accessible single-page product overview with Alpha status and safety language.
+- The verified v0.1.0 direct download, package details, checksum, and SmartScreen warning.
+- Workflow, classification, desktop/CLI, requirements, separate Gemma setup, privacy, demo, FAQ, and troubleshooting content.
+- A representative CSS-rendered interface visual based on the current product design and classifications; no private CCTV frames are used.
+- GitHub Pages metadata, canonical URL, JSON-LD, favicon, robots file, sitemap, 404 page, reduced-motion handling, and keyboard focus states.
+- Only the approved text-based ClipSift SVG brand asset copied to `docs/assets/`; existing `for_content/` screenshots were reviewed but excluded because they show Google Cloud account/project UI rather than the finished ClipSift interface.
+
+The download continues to point directly to the verified R2 URL. A source comment identifies the replacement point for a future counted redirect without implementing tracking.
+
+## Future work (not implemented)
+
+- Add a counted Cloudflare Worker redirect when download measurement is designed and approved.
+- Integrate the site with `uxillary/automated` where appropriate.
+- Consider an updater/bootstrapper only after code-signing and distribution design is complete.
+- Add additional privacy-safe screenshots after captures of the final branded package have been reviewed.
